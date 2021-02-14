@@ -1,0 +1,144 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: #004196;
+    margin: auto;
+    font-style: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+h3 {
+    color: white;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 50px;
+    color: #91bd1b;
+    margin: auto;
+    font-style: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.login {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 400px;
+    margin-left: 180x;
+    border-radius: 20px;
+}
+
+._5dba {
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', san-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+
+option {
+    text-align: center;
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', san-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #01070c;
+}
+
+. form {
+    width: 240px;
+    text-align: center;
+}
+
+input {
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', san-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+
+input[type=button] {
+    border: none;
+    width: 250px;
+    background: rgb(24, 80, 112);
+    color: rgb(255, 254, 254);
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type=date] {
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', san-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: rgb(60, 84, 105);
+    opacity: 0.5;
+}
+
+input[type=button]:hover {
+    color: #fff;
+    background-color: rgb(0, 149, 168);
+}
+
+a {
+    color: #97be2a;
+    text-decoration: blink;
+}
+
+a:hover {
+    color: #3797a4;
+    opacity: 1;
+    transition: 500ms;
+    transform-origin: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+::placeholder {
+    color: rgb(105, 132, 156);
+    opacity: 0.5;
+}
