@@ -1,144 +1,130 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
+    font:15px/1.5 Arial, Helvetica, 'Play' sans-serif;
+    font-weight: bold;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/backg1.jpg);
 }
 
 h1 {
     text-align: center;
     padding-top: 30px;
-    color: #004196;
+    color: #310126;
     margin: auto;
-    font-style: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-}
+    /* font-style: Arial, Helvetica, sans-serif; */
+    font-size: 30px;
 
-h3 {
-    color: white;
-    text-align: right;
-    padding-top: 5px;
-    padding-right: 50px;
-    color: #91bd1b;
-    margin: auto;
-    font-style: Arial, Helvetica, sans-serif;
-    font-size: 40px;
 }
 
 .login {
-    background: rgba(0, 0, 0, 0.6);
+    background: #e4e9e9;
     padding: 40px;
-    width: 250px;
+    width: 280px;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
     margin-left: 180x;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
-._5dba {
-    width: 240px;
-    text-align: center;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    font-family: 'Play', san-serif;
-    font-size: 16px;
-    font-weight: 200px;
-    padding: 10px 0;
-    transition: border 0.5s;
-    outline: none;
-    color: #fff;
-}
-
-option {
-    text-align: center;
-    width: 240px;
-    text-align: center;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    font-family: 'Play', san-serif;
-    font-size: 16px;
-    font-weight: 200px;
-    padding: 10px 0;
-    transition: border 0.5s;
-    outline: none;
-    color: #01070c;
-}
-
-. form {
+.form {
     width: 240px;
     text-align: center;
 }
 
 input {
-    width: 240px;
-    text-align: center;
-    background: transparent;
+    width: 280px;
+    height: 50px;
+    background: white;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-radius: 20px;
     font-family: 'Play', san-serif;
     font-size: 16px;
     font-weight: 200px;
     padding: 10px 0;
     transition: border 0.5s;
     outline: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 input[type=button] {
     border: none;
-    width: 250px;
-    background: rgb(24, 80, 112);
+    width: 150px;
+    height: 42px;
+    height: 42px;    
+    background: #b13c95;
     color: rgb(255, 254, 254);
     font-size: 16px;
+    font-weight: bold;
     line-height: 25px;
     padding: 10px 0;
-    border-radius: 20px;
+    border-radius: 40px;
     cursor: pointer;
-}
-
-input[type=date] {
-    width: 240px;
-    text-align: center;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    font-family: 'Play', san-serif;
-    font-size: 16px;
-    font-weight: 200px;
-    padding: 10px 0;
-    transition: border 0.5s;
-    outline: none;
-    color: rgb(60, 84, 105);
-    opacity: 0.5;
+    margin-left: 68px;  
 }
 
 input[type=button]:hover {
     color: #fff;
-    background-color: rgb(0, 149, 168);
+    background-color: rgb(197, 10, 166);
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: darkgrey;
 }
 
 a {
-    color: #97be2a;
+    color: #160018;
     text-decoration: blink;
+    margin-left: 110px;
 }
 
 a:hover {
-    color: #3797a4;
+    color: #b13c95;
     opacity: 1;
-    transition: 500ms;
-    transform-origin: left;
+    transition: 50ms;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 50%;
+    transform: scale(0.8);
+}
+
+.fa:hover {
+    color: #b13c95;
+    opacity: 1;
+    transition: 50ms;
+    
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: white;
+    color: #3b3998;
+    margin-left: 80px;
+}
+
+.fa-google {
+    background: white;
+    color: #3b3993;
 }
 
 ::placeholder {
-    color: rgb(105, 132, 156);
+    font-weight: bold;
+    color: black;
     opacity: 0.5;
+    padding-left: 20px;
 }
