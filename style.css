@@ -4,7 +4,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(./img/backg1.jpg);
-    place-items: center;
 }
 
 h1 {
@@ -21,7 +20,7 @@ h1 {
     padding: 40px;
     width: 280px;
     margin: auto;
-    margin-top: 45px;
+    margin-top: 110px;
     height: 500px;
     margin-left: 180x;
     border-radius: 10px;
@@ -34,7 +33,7 @@ h1 {
 
 input {
     width: 280px;
-    height: 50px;
+    height: 35px;
     background: white;
     border: none;
     border-radius: 20px;
